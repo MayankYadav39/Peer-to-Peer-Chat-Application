@@ -1,4 +1,4 @@
-# Peer-to-Peer Chat Application
+# Peer-to-Peer Chat Application (With BONUS )
 
 ## Overview
 This repository contains two versions of a peer-to-peer (P2P) chat system:
