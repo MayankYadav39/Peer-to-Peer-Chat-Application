@@ -13,7 +13,7 @@ Both versions enable direct communication between peers over a network without t
 
 # Team Detail
 
-**Team Name:** N0t_Applicable
+**Team Name:** Not_Applicable
 
 ## Team Members
 
