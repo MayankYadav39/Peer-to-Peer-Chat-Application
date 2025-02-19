@@ -67,5 +67,11 @@ Both versions enable direct communication between peers over a network without t
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/MayankYadav39/Peer-to-Peer-Chat-Application.git
-   cd Peer-to-Peer-Chat-Applicatio
+   cd Peer-to-Peer-Chat-Application
+2. **Web Application**   :
+  ```bash
+  cd App
+  python app.py
+  ```
 
+   
