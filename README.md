@@ -72,8 +72,8 @@ Both versions enable direct communication between peers over a network without t
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/MayankYadav39/Peer-to-Peer-Chat-Application.git
-   cd Peer-to-Peer-Chat-Application
+   git clone https://github.com/MayankYadav39/Peer-to-Peer-Chat-Application_Not_Applicable.git
+   cd Peer-to-Peer-Chat-Application_Not_Applicable
 2. **Web Application**   :
   ```bash
   cd App
