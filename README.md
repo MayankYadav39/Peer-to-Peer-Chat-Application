@@ -30,6 +30,7 @@ Both implementations enable real-time messaging between peers using direct TCP s
 - **Real-Time Updates:**  
   Periodically updates both chat messages and the active peer list.
   ![Chat Application Screenshot](Images/Screenshot%202025-02-19%20154937.png)
+  ![Chat Application Screenshot](Images/Screenshot%2025-02-19%162514.png).
 
 
 ## Prerequisites
