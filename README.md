@@ -1,28 +1,32 @@
-# Peer-To-Peer Chat Application
+# Peer-to-Peer Messaging Application
 
 ## Overview
-
-This project is a versatile chat application that combines a peer-to-peer (P2P) networking module with two separate user interfaces:
-
-1. **Terminal-Based Application:**  
-   A Python script that supports terminal operations for direct TCP socket communication, featuring a menu-driven interface for sending messages, querying active peers, and connecting to peers.
-
-2. **Flask Web Interface:**  
-   A modern, browser-based chat interface that provides real-time updates, displays active peers, shows chat history, and allows users to send messages with ease.
-
-Both implementations enable real-time messaging between peers using direct TCP socket connections and are designed with a user-friendly and minimalistic approach.
+The Peer-to-Peer Messaging Application is a Python-based project designed for simple and direct communication between multiple peers. Using socket programming and multithreading, the application facilitates real-time message exchange over a network, allowing users to connect, send, and receive messages with ease.
 
 ## Features
+- **Peer Connection Management**
+  - Maintains an active list of connected peers using a global dictionary.
+  - Supports dynamic updating of peer information when connection messages are received.
+- **Multi-threaded Operation**
+  - Uses separate threads for handling incoming connections and client messages to ensure smooth communication.
+- **Local IP Detection**
+  - Automatically determines and displays your local IP address for external sharing with peers.
+- **Interactive Command-Line Interface**
+  - Provides a menu-driven interface to send messages, query active peers, and connect to new peers.
+- **Mandatory Messaging**
+  - Automatically sends predefined mandatory messages to two specified IP addresses upon startup.
+- **Customizable Identification**
+  - Users set a team name which is appended to every outgoing message, making communication clear and organized.
 
-### Terminal-Based Communication
-- **Direct Messaging via TCP Sockets:**  
-  Enables simultaneous sending and receiving of messages.
-- **Multi-threaded Handling:**  
-  Supports multiple peer connections concurrently.
-- **Mandatory Messaging:**  
-  Automatically sends predefined messages to specific IP addresses upon startup.
-- **User-Friendly CLI:**  
-  A clear menu-driven interface to interact with the chat system.
+## Prerequisites
+- **Python Version:** Python 3.x is required.
+- **Libraries:** Uses Python's standard libraries (`socket`, `threading`, `sys`, and `time`) – no external dependencies are necessary.
+
+## Installation
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
 
 ### Flask Web Interface
 - **Dynamic Chat UI:**  
