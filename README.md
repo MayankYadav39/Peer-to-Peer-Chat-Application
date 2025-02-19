@@ -1,32 +1,33 @@
-# Peer-to-Peer Messaging Application
+# Peer-to-Peer Chat Application
 
 ## Overview
-The Peer-to-Peer Messaging Application is a Python-based project designed for simple and direct communication between multiple peers. Using socket programming and multithreading, the application facilitates real-time message exchange over a network, allowing users to connect, send, and receive messages with ease.
+This Peer-to-Peer Chat Application is a Python-based project that enables direct communication between multiple users without the need for a centralized server. It leverages socket programming and multithreading to allow real-time message exchange among connected peers.
 
 ## Features
 - **Peer Connection Management**
-  - Maintains an active list of connected peers using a global dictionary.
-  - Supports dynamic updating of peer information when connection messages are received.
+  - Maintains an active list of connected peers.
+  - Dynamically updates connection details when peers send connection messages.
 - **Multi-threaded Operation**
-  - Uses separate threads for handling incoming connections and client messages to ensure smooth communication.
+  - Uses separate threads for handling incoming connections and processing client messages.
 - **Local IP Detection**
-  - Automatically determines and displays your local IP address for external sharing with peers.
+  - Automatically detects and displays your local IP address for sharing with peers.
 - **Interactive Command-Line Interface**
-  - Provides a menu-driven interface to send messages, query active peers, and connect to new peers.
+  - Menu-driven interface for sending messages, querying active peers, and connecting to new peers.
 - **Mandatory Messaging**
-  - Automatically sends predefined mandatory messages to two specified IP addresses upon startup.
+  - Automatically sends preset mandatory messages to specific IP addresses upon startup.
 - **Customizable Identification**
-  - Users set a team name which is appended to every outgoing message, making communication clear and organized.
+  - Allows users to set a team name that prefixes all outgoing messages.
 
 ## Prerequisites
 - **Python Version:** Python 3.x is required.
-- **Libraries:** Uses Python's standard libraries (`socket`, `threading`, `sys`, and `time`) – no external dependencies are necessary.
+- **Libraries:** Uses standard Python libraries such as `socket`, `threading`, `sys`, and `time`.
 
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/MayankYadav39/Peer-to-Peer-Chat-Application.git
+   cd Peer-to-Peer-Chat-Application
+
 
 ### Flask Web Interface
 - **Dynamic Chat UI:**  
