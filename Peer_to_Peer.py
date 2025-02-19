@@ -196,7 +196,7 @@ def send_mandatory_messages():
     """
     # Define the mandatory targets.
     mandatory_peers = [
-        ("10.206.4.201", 1255),
+        ("10.206.4.122", 1255),
         ("10.206.5.228", 6555)
     ]
     
