@@ -29,6 +29,8 @@ Both implementations enable real-time messaging between peers using direct TCP s
   A sleek, browser-based interface that displays active peers, chat history, and provides interactive forms for sending messages.
 - **Real-Time Updates:**  
   Periodically updates both chat messages and the active peer list.
+  ![Chat Application Screenshot](Images/Screenshot%202025-02-19%20154937.png)
+
 
 ## Prerequisites
 - Python 3.6 or higher
