@@ -11,9 +11,15 @@ Both versions enable direct communication between peers over a network without t
 ---
 
 
-## Team Detail
---**Mayank Yadav**
+# Team Detail
 
+**Team Name:** N0t_Applicable
+
+## Team Members
+
+1. **Mayank Yadav** – Roll No: 230002041
+2. **Harshvardhan Choudhary** – Roll No: 230002027
+3. **Anuj Kothari** – Roll No: 230008010
 ## Features
 
 ### Console-based Application
